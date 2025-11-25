@@ -53,3 +53,14 @@ if x < 20:
     pass
 else:
     print("x is not less than 20")
+
+# Python Program for Arithmetic Calculations
+x = int(input("Enter number x :"))
+y = int(input("Enter number y :"))
+print(f"Sum of {x} + {y} =", x + y)
+print(f"Difference of {x} - {y} =", x - y)
+print(f"Product of {x} * {y} = ", x * y)
+print(f"Quotient of {x} / {y} = ", x / y)
+print(f"Modulus of {x} % {y} = ", x % y)
+print(f"Floor Division of {x} // {y} = ", x // y)
+print(f"Exponentiation of {x} ** {y} = ", x ** y)
