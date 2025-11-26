@@ -25,3 +25,12 @@ n = int(input("Please enter n: "))
 m = int(input("Please enter m: "))
 p = n + m
 print(f"Sum of {n} and {m} is {p}")
+
+# Python Program to Swap Two Numbers
+x = input("Please enter x:")
+y = input("Please enter y:")
+z = x
+x = y
+y = z
+print(x)
+print(y)

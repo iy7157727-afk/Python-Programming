@@ -1,28 +1,8 @@
-# Python Program to Swap Two Numbers
-x = input("Please enter x:")
-y = input("Please enter y:")
-z = x
-x = y
-y = z
-print(x)
-print(y)
-
 # Creating Dictionary with Two Lists
 list1 = ['name','age','salary']
 list2 = ['abdul',36,590000]
 dictionary = dict(zip(list1,list2))
 print(dictionary)
-
-# Function Recursion
-def print_rec(i):
-    if i <= 5 :
-        print("Hello World!")
-        print_rec(i+1)
-        return
-    else:
-        return
-
-print_rec(1)
 
 # Lambda Function
 fun1 = lambda a , b , c : a * b * c

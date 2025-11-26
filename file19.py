@@ -89,3 +89,14 @@ def print_numbers(a,b, **kwargs):
     print(kwargs["age"])
 
 print_numbers(a = 10,b = 20,c = 30,d = 40,name = "Abdul",age = 23,salary = 67000)
+
+# Function Recursion
+def print_rec(i):
+    if i <= 5 :
+        print("Hello World!")
+        print_rec(i+1)
+        return
+    else:
+        return
+
+print_rec(1)
