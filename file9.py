@@ -55,12 +55,42 @@ else:
     print("x is not less than 20")
 
 # Python Program for Arithmetic Calculations
-x = int(input("Enter number x :"))
-y = int(input("Enter number y :"))
-print(f"Sum of {x} + {y} =", x + y)
-print(f"Difference of {x} - {y} =", x - y)
-print(f"Product of {x} * {y} = ", x * y)
-print(f"Quotient of {x} / {y} = ", x / y)
-print(f"Modulus of {x} % {y} = ", x % y)
-print(f"Floor Division of {x} // {y} = ", x // y)
-print(f"Exponentiation of {x} ** {y} = ", x ** y)
+print("1: Add")
+print("2: Subtract")
+print("3: Multiply")
+print("4: Divide")
+print("5: Modulus")
+print("6: Floor Divide")
+print("7: Exponentiation")
+
+opt = int(input("Enter Option (1-7):"))
+if opt == 1:
+    x = int(input("Enter number x:"))
+    y = int(input("Enter number y:"))
+    print(f"Sum of {x} + {y} = ", x + y)
+elif opt == 2:
+    x = int(input("Enter number x:"))
+    y = int(input("Enter number y:"))
+    print(f"Difference of {x} - {y} = ", x - y)
+elif opt == 3:
+    x = int(input("Enter number x:"))
+    y = int(input("Enter number y:"))
+    print(f"Product of {x} * {y} = ", x * y)
+elif opt == 4:
+    x = int(input("Enter number x:"))
+    y = int(input("Enter number y:"))
+    print(f"Quotient of {x} / {y} = ", x / y)
+elif opt == 5:
+    x = int(input("Enter number x:"))
+    y = int(input("Enter number y:"))
+    print(f"Modulus of {x} % {y} = ", x % y)
+elif opt == 6:
+    x = int(input("Enter number x:"))
+    y = int(input("Enter number y:"))
+    print(f"Floor Division of {x} // {y} = ", x // y)
+elif opt == 7:
+    x = int(input("Enter number x:"))
+    y = int(input("Enter number y:"))
+    print(f"Exponentiation of {x} ** {y} = ", x ** y)
+else:
+    print("Invalid Option")
