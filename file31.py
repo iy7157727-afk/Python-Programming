@@ -202,26 +202,3 @@ class Test():
 t1 = Test(10)
 t1 = str(10)
 print(t1)
-
-'''import mysql.connector
-
-mydb = mysql.connector.connect(
-    host = "localhost",
-    user = "myusername",
-    password = "mypassword",
-    database = "mydatabase"
-)'''
-
-'''mycursor = mydb.cursor()
-
-mycursor.execute("SELECT * FROM customers")
-
-myresult = mycursor.fetchall()
-for x in myresult:
-    print(x)
-
-sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
-val = ("John", "Highway 21")
-mycursor.execute(sql, val)
-
-mydb.commit()'''
